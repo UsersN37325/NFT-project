@@ -1,0 +1,424 @@
+@font-face {
+    font-family: monserat400;
+    src: url(./assets/Font/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: monserat900;
+    src: url(./assets/Font/static/Montserrat-ExtraBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: monserat400;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.menu a {
+    margin: 0 15px;
+    color: #737373;
+}
+
+.menu img {
+    width: 25px;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/cover.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.block {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.block h1 {
+    font-size: 50px;
+
+    font-family: monserat900;
+}
+
+.block p {
+    width: 60%;
+    color: #737373;
+}
+.getBtn {
+    padding: 15px 40px;
+    background-color: #FFA62B;
+    color: white;
+    border-radius: 30px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.learnBtn {
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 1px solid #00A0C1;
+    background-color: transparent;
+    color: #00A0C1;
+    margin: 0 15px;
+}
+
+.cardBlock {
+    position: absolute;
+    display: flex;
+    bottom: -50px;
+    gap: 20px;
+}
+
+.cardBlock .card {
+    width: 29%;
+    background-color: white;
+    box-shadow: 0 15px 10px #f0eded;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.cardBlock img {
+    width: 40px;
+}
+
+.cardBlock h2 {
+    font-size: 18px;
+    margin: 10px 0;
+
+}
+
+.cardBlock p {
+    width: 100%;
+    font-size: 14px;
+}
+
+.cardBlue {
+    background-color: #00A0C1 !important;
+    color: white;
+}
+
+.cardBlue p {
+    color: white;
+}
+
+.chooseBlock {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.title {
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.paragraf {
+    width: 50%;
+    margin:20px auto;
+    text-align: center;
+}
+.chooseCardBlock {
+    width: 80%;
+    display: flex;
+    margin:30px auto;
+    justify-content: space-between;
+}
+.chooseCard {
+    width: 23%;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.chooseCard img {
+    width: 50px;
+}
+.chooseCard h2 {
+    margin: 10px 0;
+}
+.chooseCard p {
+    width: 100%;
+}
+.advice {text-align:start;}
+.advice h2{font-size: 17px;}
+.advice p {
+    font-size: 14px;
+    color: #737373;
+}
+.advice img {
+    width: 170px;
+    border-radius: 10px;
+}
+.ServiceBlock {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serviceImg {
+    width:100%;
+    height: 100%;
+}
+.service {
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-between;
+}
+.box-foto {
+    width: 45%
+}
+.box-text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.box-text h2 {
+    font-size: 45px;
+}
+.box-text p {
+    margin: 20px 0;
+    color: grey;
+}
+.box {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: start;
+    margin: 15px 0;
+    width: 80%;
+}
+.box img {
+    width: 30px;
+}
+.box span {
+    margin: 10px 0;
+    color: #737373;
+    display: inline-block;
+}
+main {
+    width: 100%;
+    height: 250px;
+    background-color:#f0eded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serviceLogo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.serviceLogo img {
+    width: 80px;
+}
+.border {
+    width: 100%;
+    height: 50px;
+    background-color: #252B42;
+    position: relative;
+}
+.input {
+    width: 70%;
+    height: 120px;
+    background-color: #16697A;
+    position: absolute;
+    bottom: 15px;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.input h2 {
+    width: 80%;
+    color: white;
+}
+.text-right {
+    width: 60%;
+}
+.text-right h2 {
+    width: 50%;
+}
+.text-left {
+    width: 40%;
+    display: flex;
+}
+.input input {
+    padding: 15px 35px;
+    border-radius: 5px 0 0 5px;
+    border: transparent;
+}
+.input button {
+    padding: 15px 20px;
+    background-color: #FFA62B;
+    color: white;
+    border: transparent;
+    border-radius: 0 5px 5px 0;
+    border: transparent;
+}
+.epiloge {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color: lightgray;
+
+}
+.second {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paradox {
+    width: 18%;
+    height: 35vh;
+    background-color: white;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.paradox img {
+    width: 30%;
+}
+.paradox p {
+    font-size:12px ; 
+}
+.paradox h2 {
+    font-size: 18px;
+}
+.paradox button {
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 2px solid #FFA62B;
+    color: #FFA62B;
+}
+.paradox1 {
+    width: 18%;
+    height: 45vh;
+    background-color: #252B42;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.paradox1 img {
+    width: 30%;
+}
+.paradox1 p {
+    font-size:12px ; 
+}
+.paradox1 h2 {
+    font-size: 18px;
+}
+.paradox1 button {
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.last {
+    width: 100%;
+}
+.part {
+    width: 65%;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slash p {
+    margin-top: 10px;
+}
+.slash button {
+    padding: 10px 20px;
+    background-color: #FFA62B;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #16697A;
+    color: white;
+    padding: 50px;
+}
+.shesh {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background:linear-gradient() ;
+}
+.slash img {
+    width: 10%;
+}
